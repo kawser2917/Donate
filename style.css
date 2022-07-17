@@ -3,6 +3,10 @@
     margin:0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
 .banner{
     width: 100%;
     height: 90vh;
@@ -107,6 +111,99 @@ input[type="text"] {
     border-radius: 5px;
 
 }
+
+.catagory{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.item{
+    width: 20%;
+    margin-left: 20px;
+    text-align: center;
+    
+}
+
+.item i{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bg-1{
+    background-color: rgb(113, 175, 144);
+    border-radius: 10px;
+}
+.bg-2{
+    background-color: rgb(106, 119, 161);
+    border-radius: 10px;
+}
+.bg-3{
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+.donation-contribute{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 200px;
+    width: 80%;
+}
+.half{
+    width: 50%;
+    margin-left: 30px;
+    height: 300px;
+}
+
+.half p{
+    line-height: 30px;
+}
+
+.con-btn{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    color: white;
+    background-image: linear-gradient(tomato,red);
+    border-radius: 5px;
+}
+
+.subscribe{
+    margin-top: 100px;
+    margin-left: 300px;
+    width: 60%;
+    height: 200px;
+    background-color: rgb(201, 186, 158);
+}
+
+.center-block{
+    position: relative;
+    top: 40%;
+}
+
+.center-block input{
+    padding: 10px;
+}
+
+footer{
+    margin-top: 80px;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+footer h3{
+    color: orangered;
+    font-size: 2rem;
+    font-family: 'Edu QLD Beginner', cursive;
+}
+
+ 
+
 
 
 
