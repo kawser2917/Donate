@@ -10,6 +10,9 @@
     background-size: cover;
     background-position: center;
 }
+h1{
+    font-size: 50px;
+}
 
 .content{
     color: white;
@@ -19,7 +22,7 @@
 }
 
 .content h1{
-    font-size: 50px;
+    
     font-family: 'Roboto', sans-serif;
     line-height: 5rem;
    
@@ -40,6 +43,36 @@
     border-radius: 20px;
     
 }
+
+.donate-amount{
+    text-align: center;
+    margin-top: 100px;
+    line-height: 40px;
+
+}
+h2{
+    font-size: 30px;
+}
+.amount{
+    margin-top: 100px;
+    margin-left: 250px;
+}
+
+.amount button{
+    padding: 25px;
+    margin-left: 8px;
+}
+
+#diff-btn{
+    color: orangered;
+    border: 1px solid orangered;
+    background-color: antiquewhite;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
 
 
 
